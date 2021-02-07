@@ -1,0 +1,85 @@
+{
+	"id": "4556c2da-4c65-4072-a7bf-277103d47b09",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": 2,
+	"addIns": [],
+	"allowPublicClient": null,
+	"appId": "39a620d6-58da-45d0-8afc-4e45e5bc654e",
+	"appRoles": [],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2021-01-03T08:14:45Z",
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [
+		"https://sync.citizerve.com"
+	],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "Citizerve Sync",
+	"oauth2AllowIdTokenImplicitFlow": false,
+	"oauth2AllowImplicitFlow": false,
+	"oauth2Permissions": [],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": null,
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"endDate": "2299-12-31T08:00:00Z",
+			"keyId": "1fd908c0-f4cf-421e-8b28-e86c382f44bc",
+			"startDate": "2021-01-03T08:25:04.823Z",
+			"value": null,
+			"createdOn": "2021-01-03T08:25:05.1490389Z",
+			"hint": "cBp",
+			"displayName": "Password uploaded on Sun Jan 03 2021"
+		}
+	],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "dushyantgill.com",
+	"replyUrlsWithType": [
+		{
+			"url": "https://www.citizerve.com",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "9369a061-1bf8-4174-86ea-c678265df725",
+			"resourceAccess": [
+				{
+					"id": "a4909e53-fd7e-47a9-87a6-16b3504050f8",
+					"type": "Role"
+				},
+				{
+					"id": "2f003296-108f-419f-b73a-759d3201c342",
+					"type": "Role"
+				},
+				{
+					"id": "3cc61f83-ed82-4c1e-952d-1565b754c6a2",
+					"type": "Role"
+				},
+				{
+					"id": "1f338290-b5b9-419e-956b-4ff6b88736c1",
+					"type": "Role"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADandPersonalMicrosoftAccount",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}

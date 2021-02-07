@@ -1,0 +1,128 @@
+{
+	"id": "3ea54914-2699-4e84-8eac-8759f7440068",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": 2,
+	"addIns": [],
+	"allowPublicClient": true,
+	"appId": "9369a061-1bf8-4174-86ea-c678265df725",
+	"appRoles": [
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Create, Read, Update, and Delete resources in your Citizerve",
+			"displayName": "Manage resources in your Cirizerve",
+			"id": "a4909e53-fd7e-47a9-87a6-16b3504050f8",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Global.Resources.Write"
+		},
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Read any and all resources in your Citizerve",
+			"displayName": "Read resources in your Citizerve",
+			"id": "2f003296-108f-419f-b73a-759d3201c342",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Global.Resources.Read"
+		},
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Read any and all citizens in your Citizerve",
+			"displayName": "Read citizens in your Citizerve",
+			"id": "3cc61f83-ed82-4c1e-952d-1565b754c6a2",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Global.Citizens.Read"
+		},
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Create, Read, Update, and Delete any and all citizens in your Citizerve",
+			"displayName": "Manage citizens in your Citizerve",
+			"id": "1f338290-b5b9-419e-956b-4ff6b88736c1",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Global.Citizens.Write"
+		}
+	],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2020-12-31T21:24:17Z",
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [
+		"https://api.citizerve.com"
+	],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "Citizerve",
+	"oauth2AllowIdTokenImplicitFlow": false,
+	"oauth2AllowImplicitFlow": false,
+	"oauth2Permissions": [
+		{
+			"adminConsentDescription": "User Impersonate",
+			"adminConsentDisplayName": "User Impersonate",
+			"id": "91ecfb91-7f2d-41c0-a43b-4274a9f0ab9b",
+			"isEnabled": false,
+			"lang": null,
+			"origin": "Application",
+			"type": "User",
+			"userConsentDescription": "User Impersonate",
+			"userConsentDisplayName": "User Impersonate",
+			"value": "UserImpersonate"
+		}
+	],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": null,
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "dushyantgill.com",
+	"replyUrlsWithType": [
+		{
+			"url": "https://www.citizerve.com",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADandPersonalMicrosoftAccount",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}

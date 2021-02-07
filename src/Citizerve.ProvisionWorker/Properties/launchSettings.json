@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Citizerve.ProvisionWorker": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
